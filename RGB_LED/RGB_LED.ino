@@ -1,4 +1,4 @@
-#define RED 3
+#define RED 9
 #define GREEN 10
 #define BLUE 11
 #define DOWN 8
@@ -12,6 +12,7 @@ int LED[3] = {RLED,GLED,BLED};
 int RGB[3][2] = {{RED,255},{GREEN,0},{BLUE,0}};
 int selectColor =0;
 int before=LOW;
+
 void setup(){
   Serial.begin(9600);
   for(int i=0; i<3; i++){
